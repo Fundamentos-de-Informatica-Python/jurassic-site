@@ -6,11 +6,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Jurassic Class</title>
     <link rel="stylesheet" href="css/estilos.css">
+    <script src="script/utils.js"></script>
 </head>
 <body>
     
     <h1>
-        <img src="imagenes/jurassic-logo.jpg" width="8%">
+        <img src="images/jurassic-logo.jpg" width="8%">
         Jurassic class
     </h1>
     <hr/>
@@ -23,13 +24,18 @@
         <a href="jurasssic-website-05-0800Dino.html">0-800-Dinos</a>
     </nav>
         
- 
     <section>
-        <h1>Argentinosaurio</h1>
-        <small> Bien Argento!</small>
-        <img src="imagenes/dino_01_argentinosaurus.jpg" class="dino big">
+        <h1> Tiranosaurio Rex</h1>
+        <small> Keep out!</small>
+        <img src="images/dino_02_trex.png" 
+            id="dino" 
+            alt="trex">
+    </section>
+    <section  class="center">
+        <button onclick="show('dino')">On Trex</button> 
+        <button onclick="hide('dino')">Off Trex</button>   
+        <button onclick="hide('dino')">Edad Trex?</button> 
     </section>
 
-    
 </body>
 </html>
