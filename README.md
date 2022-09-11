@@ -1,2 +1,0 @@
-# jurassic-site
-jurassic-site
