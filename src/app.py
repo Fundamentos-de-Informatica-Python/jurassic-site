@@ -7,7 +7,7 @@ app = Flask(__name__)
 
 @app.get('/api/jurassic/hello')
 def get_dinos():
-    return 'Hello!'
+    return 'Hello Dinos!'
 
 
 @app.get('/api/jurassic/dinos')
