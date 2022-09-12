@@ -1,1 +1,1 @@
-web: gunicorn jurassic:app
+web: gunicorn src.app:app
