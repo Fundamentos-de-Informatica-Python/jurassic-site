@@ -9,10 +9,10 @@ dinos.ninja.ar
 
 https://dinos.ninja.ar
 https://dinos.ninja.ar/jurassic-front/
-https://dinos.ninja.ar/jurassic-front/jurasssic-website-01-trex.html
+https://dinos.ninja.ar/jurassic-front/jurasssic-site-01-trex.html
 
 https://jurassic-site.netlify.app/jurassic-front/
-https://jurassic-site.netlify.app/jurassic-front/jurasssic-website-01-trex
+https://jurassic-site.netlify.app/jurassic-front/jurasssic-site-01-trex
 
 
 # About
