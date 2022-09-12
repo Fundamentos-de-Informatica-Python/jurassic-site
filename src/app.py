@@ -1,6 +1,6 @@
 from flask import Flask,jsonify,request
 
-from db.db_manager import load_dinos, save_dinos
+from src.db.db_manager import load_dinos, save_dinos
 
 
 app = Flask(__name__)
