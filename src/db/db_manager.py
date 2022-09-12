@@ -1,5 +1,5 @@
 import csv
-from models.Dino import Dinos
+from db.models.Dino import Dinos
 
 def load_dinos():
     dinos = []
