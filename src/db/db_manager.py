@@ -3,7 +3,7 @@ from src.models.Dino import Dinos
 
 def load_dinos():
     dinos = []
-    with open('db/dino_files.csv', 'r') as dino_file:
+    with open('src/db/dino_files.csv', 'r') as dino_file:
         rows = csv.DictReader(dino_file)
 
         for row in rows:
@@ -24,7 +24,7 @@ def load_dinos():
 
 
 def save_dinos(Dinos):
-    with open('db/dino_files.csv', 'a') as dino_file:
+    with open('src/db/dino_files.csv', 'a') as dino_file:
         header = ['type','name','weight','long','height','img']
 
         writer = csv.DictWriter(dino_file, fieldnames=header)
