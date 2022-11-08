@@ -2,27 +2,21 @@
 
   <HeaderSite/>
   <MenuTop/>
-
-<BodyHome/>
+  <FormDinoAttack/>
 
 </template>
 
 <script>
 import HeaderSite from "@/components/HeaderSite";
 import MenuTop from "@/components/MenuTop";
-import BodyHome from "@/components/BodyHome";
-// import FormDinoAdd from "@/components/FormDinoAdd";
-// import FormDinoAttack from "@/components/FormDinoAttack";
-
-
-
+import FormDinoAttack from "@/components/FormDinoAttack";
 
 export default {
   name: "HelpAttackDinoView",
   components: {
     HeaderSite,
     MenuTop,
-    BodyHome
+    FormDinoAttack
   }
 }
 </script>

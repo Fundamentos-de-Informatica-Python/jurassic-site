@@ -3,26 +3,19 @@
   <HeaderSite/>
   <MenuTop/>
 
-<BodyHome/>
-
+<br>
+Arg Saurios
 </template>
 
 <script>
 import HeaderSite from "@/components/HeaderSite";
 import MenuTop from "@/components/MenuTop";
-import BodyHome from "@/components/BodyHome";
-// import FormDinoAdd from "@/components/FormDinoAdd";
-// import FormDinoAttack from "@/components/FormDinoAttack";
-
-
-
 
 export default {
   name: "DinoArgSaurioView",
   components: {
     HeaderSite,
-    MenuTop,
-    BodyHome
+    MenuTop
   }
 }
 </script>

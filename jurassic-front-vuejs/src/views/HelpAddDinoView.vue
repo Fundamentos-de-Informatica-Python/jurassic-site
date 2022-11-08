@@ -2,27 +2,24 @@
 
   <HeaderSite/>
   <MenuTop/>
+  <FormDinoAdd/>
 
-<BodyHome/>
+<br>
+Help Add Dino
 
 </template>
 
 <script>
 import HeaderSite from "@/components/HeaderSite";
 import MenuTop from "@/components/MenuTop";
-import BodyHome from "@/components/BodyHome";
-// import FormDinoAdd from "@/components/FormDinoAdd";
-// import FormDinoAttack from "@/components/FormDinoAttack";
-
-
-
+import FormDinoAdd from "@/components/FormDinoAdd";
 
 export default {
   name: "HelpAddDinoView",
   components: {
     HeaderSite,
     MenuTop,
-    BodyHome
+    FormDinoAdd
   }
 }
 </script>
