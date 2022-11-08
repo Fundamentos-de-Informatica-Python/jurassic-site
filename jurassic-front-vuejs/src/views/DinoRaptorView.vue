@@ -3,28 +3,25 @@
   <HeaderSite/>
   <MenuTop/>
 
-<BodyHome/>
+  <section>
+      <h1>Velociraptor</h1>
+      <small>Temibles!!</small>
+      <br>
+      <img src="../assets/img/dino_03_raptor1.png" class="raptors" >
+      <img src="../assets/img/dino_03_raptor2.png" class="raptors" >
+  </section>
 
-<br>
-Raptor
 </template>
 
 <script>
 import HeaderSite from "@/components/HeaderSite";
 import MenuTop from "@/components/MenuTop";
-import BodyHome from "@/components/BodyHome";
-// import FormDinoAdd from "@/components/FormDinoAdd";
-// import FormDinoAttack from "@/components/FormDinoAttack";
-
-
-
 
 export default {
   name: "DinoRaptorView",
   components: {
     HeaderSite,
-    MenuTop,
-    BodyHome
+    MenuTop
   }
 }
 </script>
@@ -32,4 +29,10 @@ export default {
 <style scoped>
 @import "../assets/css/estilos.css";
 
+img.raptors {
+    border: 10px solid white
+}
+img.raptors:hover {
+    border: 10px solid peru   
+}
 </style>

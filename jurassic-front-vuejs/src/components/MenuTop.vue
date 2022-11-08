@@ -1,12 +1,7 @@
 <template>
 
   <nav>
-      <a href="jurasssic-site-01-trex.html">TRex</a>
-      <a href="jurasssic-site-02-raptor.html">Rapotors</a>
-      <a href="jurasssic-site-03-mosa.html">Mosasaurio</a>
-      <a href="jurasssic-site-04-argsaurio.html">ArgSaurios</a>
-      <a href="jurasssic-site-05-0800Dino.html">0-800-Dinos Attack</a>
-      <a href="jurasssic-site-06-AddDino.html">0-800-Dino Sugest</a>
+      Welcome to the Jurasic Park!
   </nav>
 
   <nav>

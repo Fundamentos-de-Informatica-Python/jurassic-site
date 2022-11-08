@@ -3,8 +3,12 @@
   <HeaderSite/>
   <MenuTop/>
 
-<br>
-Arg Saurios
+    <section>
+        <h1>Argentinosaurio</h1>
+        <small> Bien Argento!</small>
+        <img src="../assets/img/dino_01_argentinosaurus.jpg" class="dino big">
+    </section>
+
 </template>
 
 <script>
