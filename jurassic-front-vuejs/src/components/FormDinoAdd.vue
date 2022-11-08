@@ -65,6 +65,7 @@ export default {
 
     form {
         width: 80%;
+        text-align: left;
     }
     label {
         display: block;
