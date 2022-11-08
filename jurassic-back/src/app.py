@@ -1,13 +1,17 @@
 from flask import Flask,jsonify,request
+from flask_cors import CORS
 
-from src.db.db_manager import load_dinos, save_dinos
-
+from db.db_manager import load_dinos, save_dinos
 
 app = Flask(__name__)
+CORS(app)
+
+
+
 
 @app.get('/api/jurassic/hello')
 def get_dinos():
-    return 'Hello!'
+    return 'Hello Dinos! Do you meet to  Trex??'
 
 
 @app.get('/api/jurassic/dinos')
