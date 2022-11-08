@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jurassic Class</title>
+    <link rel="stylesheet" href="css/estilos.css">
+    <script src="script/utils.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+</head>
+<body>
+    
+    <h1>
+        <img src="images/Jurassic_Site_Logo-black.png" width="10%">
+        Jurassic class
+    </h1>
+    <hr/>
+
+<nav>
+    <a href="jurasssic-site-01-trex.html">TRex</a>
+    <a href="jurasssic-site-02-raptor.html">Rapotors</a>
+    <a href="jurasssic-site-03-mosa.html">Mosasaurio</a>
+    <a href="jurasssic-site-04-argsaurio.html">ArgSaurios</a>
+    <a href="jurasssic-site-05-0800Dino.html">0-800-Dinos Attack</a>
+    <a href="jurasssic-site-06-AddDino.html">0-800-Dino Sugest</a>
+</nav>
+ 
+
+    <section>
+        <h1>DINO Sugest</h1>
+        <small>¿Que Dinosaurio te gustaría que agreguemos al parque? Contanos!</small>
+        <br>
+
+    </section>
+    <br>
+
+
+
+    <style>
+        form {
+            width: 80%;
+        }
+        label {
+            display: block;
+            margin: .5em 0 0 0;
+        }
+        .btn {
+            display: block;
+            margin: 1em 0;
+        }
+
+        div {
+           margin: .4em 0;
+        }
+        
+        div label {
+            width: 25%;
+            float: left;
+            
+        }
+        div#container {
+            width: 70%;
+            display: flex;
+            flex-flow: column;
+            float: left;
+
+        }
+    </style>
+
+
+    <section class="formulario">
+
+        <fieldset>
+            <legend>Agregar Dinosaurio:</legend>
+        
+            <div>
+                <label for="nombre">Nombre</label>
+                <input type="text" name="nombre" id="nombre" size="30" placeholder="Ingrese el Nombre"> 
+            </div>
+
+            <div>
+                <label for="peso">Peso (Tn)</label> 
+                <input type="text" name="peso" id="peso" placeholder="Peso en Toneladas">
+            </div>
+
+            <br>
+
+            <button id="addDinoButton">
+                Agregar Dinosaurio
+            </button>
+
+        </fieldset>
+
+    </section>    
+    
+    <script>
+
+        var boton = document.getElementById('addDinoButton');
+        
+        boton.addEventListener('click', function() {
+            
+            console.log("Go To...")
+    
+            nombre   = document.getElementById('nombre').value
+            peso     = document.getElementById('peso').value
+            imagen   = nombre + '.jpg'
+
+            axios.post('http://localhost:5000/api/jurassic/dinos', {
+                    'height': '13m',
+                    'img':  imagen,
+                    'long': '2m',
+                    'name': nombre,
+                    'type': 'carnivoro',
+                    'weight': peso
+                })
+                .then(resp => console.log(resp))
+                .catch(e => console.log('Error!!!', e))
+        })
+        
+    
+    </script>
+
+
+    <br>
+    <img src="images/icono-06-huevo-dino.png" class="center" alt="">
+</body>
+</html>
