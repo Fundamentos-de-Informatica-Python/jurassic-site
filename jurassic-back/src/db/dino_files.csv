@@ -2,10 +2,5 @@ type,name,weight,long,height,img
 carnivoro,trex,9 Tn,12m,4m,trex.jpg
 carnivoro,raptor,30 kg.,2m,70cm,raptor.jpg
 carnivoro,mosasaurio,14 tn.,13m,2m,mosasaurio.jpg
-hervivoro,argentinosaurio,70 tn.,35m,7m,argentinosaurio.jpgcarnivoro,trex,9 Tn,4m,12m,trex.jpg
-carnivoro,terodàctilo,9 Tn,4m,12m,terodàctilo.jpg
-carnivoro,terodàctilo,9 Tn,4m,12m,terodàctilo.jpg
-hervivoro,aniquilosaurios,20 tn.,9m,2m,aniquilosaurios.jpg
-obnivoro,coritosaurio,3 Tn,3m,9m,coritosaurio.jpg
-carnivoro,amargasaurs,3 Tn,3m,9m,amargasaurs.jpg
-carnivoro,amargasaurs,3 Tn,3m,9m,amargasaurs.jpg
+hervivoro,argentinosaurio,70 tn.,35m,7m,argentinosaurio.jpghervivoro,triceratops,14 tn.,2m,13m,triceratops.jpg
+hervivoro,triceratops,14 tn.,2m,13m,triceratops.jpg

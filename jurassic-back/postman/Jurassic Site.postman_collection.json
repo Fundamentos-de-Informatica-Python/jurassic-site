@@ -1,0 +1,53 @@
+{
+	"variables": [],
+	"info": {
+		"name": "Jurassic Site",
+		"_postman_id": "6df69608-2759-470e-9ec5-0ed9e3f3707b",
+		"description": "Jurassic Site - Postman Collection\n",
+		"schema": "https://schema.getpostman.com/json/collection/v2.0.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "/api/jurassic/hello",
+			"request": {
+				"url": "http://localhost:5000/api/jurassic/hello",
+				"method": "GET",
+				"header": [],
+				"body": {},
+				"description": "http://localhost:5000/api/v1/purchase-orders/"
+			},
+			"response": []
+		},
+		{
+			"name": "/api/jurassic/dinos",
+			"request": {
+				"url": "http://localhost:5000/api/jurassic/dinos",
+				"method": "GET",
+				"header": [],
+				"body": {},
+				"description": "http://localhost:5000/api/v1/purchase-orders/"
+			},
+			"response": []
+		},
+		{
+			"name": "/api/jurassic/dinos",
+			"request": {
+				"url": "http://localhost:5000/api/jurassic/dinos",
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"description": ""
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"height\": \"13m\",\n    \"img\": \"triceratops.jpg\",\n    \"long\": \"2m\",\n    \"name\": \"triceratops\",\n    \"type\": \"hervivoro\",\n    \"weight\": \"14 tn.\"\n}"
+				},
+				"description": "http://localhost:5000/api/v1/purchase-orders/"
+			},
+			"response": []
+		}
+	]
+}

@@ -1,7 +1,7 @@
 from flask import Flask,jsonify,request
 from flask_cors import CORS
 
-from src.db.db_manager import load_dinos, save_dinos
+from db.db_manager import load_dinos, save_dinos
 
 app = Flask(__name__)
 CORS(app)
