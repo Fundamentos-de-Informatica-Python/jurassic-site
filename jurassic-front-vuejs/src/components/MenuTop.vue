@@ -9,6 +9,17 @@
       <a href="jurasssic-site-06-AddDino.html">0-800-Dino Sugest</a>
   </nav>
 
+  <nav>
+      <router-link :to="{name: 'DinoTrexRoute'}">TRex</router-link>
+      <router-link :to="{name: 'DinoRaptorRoute'}">Raptors</router-link>
+      <router-link :to="{name: 'DinoMosasaurioRoute'}">Mosasaurio</router-link>
+      <router-link :to="{name: 'DinoArgSaurioRoute'}">ArgSaurios</router-link>
+
+      <router-link :to="{name: 'HelpAttackDinoRoute'}">0-800-Help</router-link>
+      <router-link :to="{name: 'HelpAddDinoRoute'}">0-800-Add</router-link>
+  </nav>  
+
+
 </template>
 
 <script>

@@ -17,7 +17,7 @@ import BodyHome from "@/components/BodyHome";
 
 
 export default {
-  name: "HomeView",
+  name: "NotFound",
   components: {
     HeaderSite,
     MenuTop,

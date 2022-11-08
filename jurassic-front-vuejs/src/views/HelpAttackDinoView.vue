@@ -2,7 +2,8 @@
 
   <HeaderSite/>
   <MenuTop/>
-  <BodyHome/>
+
+<BodyHome/>
 
 </template>
 
@@ -17,7 +18,7 @@ import BodyHome from "@/components/BodyHome";
 
 
 export default {
-  name: "HomeView",
+  name: "HelpAttackDinoView",
   components: {
     HeaderSite,
     MenuTop,

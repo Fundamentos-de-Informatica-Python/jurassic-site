@@ -1,16 +1,18 @@
 <template>
 
-  <HomeView/>
+  <div id="main">
+    <!-- route outlet -->
+    <!-- component matched by the route will render here -->
+    <router-view/>
+  </div>
 
 </template>
 
 <script>
-import HomeView from "@/views/HomeView";
 
 export default {
   name: 'App',
   components: {
-    HomeView
   }
 }
 </script>
